@@ -15,6 +15,7 @@ public class WelcomeActivity extends BaseActivityN {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        finish();
     }
 }

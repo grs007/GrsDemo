@@ -35,5 +35,5 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:recyclerview-v7:25.2.0'
     compile 'com.android.support:support-v4:25.0.1'
-    compile project(':autolayout')
+    compile project(':autolayout') //等比例屏幕适配方案
 }
