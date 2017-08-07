@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/linear_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cccccc"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/iv_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300px"
+                android:contentDescription="@null"
+                android:src="@mipmap/network_error" />
+
+            <TextView
+                android:id="@+id/tv1_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_error"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="网络不可用，请检查您的网络设置"
+                android:textColor="#cccccc"
+                android:textSize="44px" />
+
+            <TextView
+                android:id="@+id/tv2_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1_error"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20px"
+                android:drawableLeft="@mipmap/ic_error_refresh"
+                android:drawablePadding="28px"
+                android:text="点我刷新"
+                android:textColor="#cccccc"
+                android:textSize="44px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoFrameLayout>

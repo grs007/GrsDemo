@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@mipmap/flush1"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush2"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush3"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush4"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush5"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush6"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush7"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush8"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush9"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush10"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush11"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush12"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush13"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush14"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush15"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush16"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush17"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush18"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush19"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush20"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush21"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush22"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush23"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush24"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush25"
+        android:duration="10" />
+    <item
+        android:drawable="@mipmap/flush26"
+        android:duration="10" />
+
+</animation-list>

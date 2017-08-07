@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:haha="http://schemas.android.com/apk/res/com.grs.my"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/app_title" />
+
+    <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_title"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的页面" />
+
+        <com.grs.my.view.ChartView
+            android:id="@+id/introduce_chart"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            haha:itemheight="200" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_loading" />
+
+    <com.grs.my.view.ErrorLayout
+        android:id="@+id/errorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</RelativeLayout>
